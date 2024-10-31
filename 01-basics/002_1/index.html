@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vue Basics</title>
+  <link rel="stylesheet" href="theme.css" />
+</head>
+
+<body>
+
+  <div class="container" id="app">
+    <div class="card">
+      <h1>{{ title }}</h1>
+      <div class="form-control">
+        <input type="text" placeholder="{{placeholder}}" />
+      </div><!--form-control-->
+
+      <button class="btn">Добавить</button>
+      <hr />
+    </div><!--card-->
+  </div><!--container-->
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
