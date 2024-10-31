@@ -1,9 +1,15 @@
 const App = {
   data() {
     return {
-      placeholder: 'Введите название заметки',
+      placeholderString: 'Введите название заметки',
       title: 'Список заметок',
+      inputValue: '',
     }
+  },
+  methods: {
+    inputChangeHandler(event) {
+      this.inputValue = event.target.value
+    },
   },
 }
 

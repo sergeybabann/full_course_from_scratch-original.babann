@@ -1,0 +1,11 @@
+url:
+    https://www.youtube.com/watch?v=1rRD9uMF92o
+
+git repo:
+    https://github.com/sergeybabann/full_course_from_scratch-original.babann
+
+lessons complete: 
+
+video stop: 1.13.30
+
+    
